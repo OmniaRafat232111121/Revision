@@ -1294,4 +1294,3 @@ console.log(theName.charAt(1));
 console.log(theName.trim().charAt(3).toUpperCase())
 console.log(theName.indexOf('m'));
 console.log(theName.indexOf('a',5))
-console.log(the)
