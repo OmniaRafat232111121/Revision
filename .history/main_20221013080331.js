@@ -1,0 +1,1 @@
+let myFriends=['omnia','salma',""]

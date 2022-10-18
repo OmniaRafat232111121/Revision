@@ -1,0 +1,26 @@
+/*Block
+-take full widgth if no widgh
+-take a new line
+-Respect padding,margine,width,height
+*/
+
+/*inline
+
+
+
+*/
+/*inline-Block
+
+
+
+*/
+/* div{
+    background-color: aqua;
+    padding:10px;
+    margine:10px;
+    display: block;
+    width: 200px;
+    height:100px;
+} */
+
+.span{}

@@ -1,0 +1,20 @@
+/*Block
+-take full widgth if no widgh
+-take a new line
+*/
+
+/*inline
+
+
+
+*/
+/*inline-Block
+
+
+
+*/
+div{
+    background-color: aqua;
+    padding:10px;
+}
+
