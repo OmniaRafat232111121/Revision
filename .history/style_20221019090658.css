@@ -1,0 +1,37 @@
+/*Block
+//div
+-take full widgth if no widgh
+-take a new line
+-Respect padding,margine,width,height
+*/
+
+/*inline
+//span
+-do not take a new line
+-dont respect width,height
+-respect padding,margine left,right
+
+*/
+/*inline-Block
+//respect padding,margin,w,h
+.romanti
+
+
+
+
+*/
+/* div{
+    background-color: aqua;
+    padding:10px;
+    margine:10px;
+    display: block;
+    width: 200px;
+    height:100px;
+} */
+
+.span{
+    background-color: aqua;
+    width: 400px;
+    height: 300px;
+
+}

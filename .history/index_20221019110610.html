@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form action="omnia.php" method="Post">
+    <div>
+    <label>firstName</label>
+    <input type="text" id="fname" name="fname" placeholder="firstname" required>
+    </div>
+    <div>
+    <label>lastName</label>
+    <input type="text" id="lname" name="lname"  placeholder="lastName"required>
+    </div>
+    <div>
+    <label>Password</label>
+    <input type="password" id="password"  placeholder="enterPassword" name="password" required>
+    </div>
+    <div>
+        <label>Email</label>
+        <input type="email" id="email"  placeholder="enter your email" name="email" required>
+        </div>
+        <div>
+            <label>Color</label>
+            <input type="color" name="Color">
+          </div>
+          <div>
+            <label>Range</label>
+            <input type="range" name="Range" min="0" max="100" step="30" value="0">
+          </div>
+          <br/>
+          <div>
+            <label>Number</label>
+            <input type="number" name="number" min="10" max="100" step="10" value="0">
+          </div>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+</form>
+<script src="main.js"></script>
+</body>
+</html>
+
