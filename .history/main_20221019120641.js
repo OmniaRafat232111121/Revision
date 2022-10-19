@@ -1480,39 +1480,12 @@ join()=>convert array into string
 // }
 // myFunction()
 
+let counter=0;
+function counter(){
+  if(counter>5){
+    setInterval(()=>{
+    
+    },1000)
+  }
 
-// let counter=0;
-// let countInterval=setInterval(count,1000)
-// function count(){
-//   console.log(counter++)
-//   if(counter>5){
-//     clearInterval(countInterval)
-//   }
-// }
-
-
-// const Person={
-//   firstName:"omnia",
-//   lastName:'Rafat',
-//   fullName:function(){
-//     return this.firstName+ " "+this.lastName;
-//   }
-// }
-// console.log(Person.fullName())
-
-
-// const person={
-//   fullName:function(){
-//     return this.firstName+ " "+this.lastName;
-//     }
-// }
-// const person1={
-//   firstName:"omnia",
-//    lastName:'Rafat',
-// }
-// const person2={
-// firstName:"salma",
-//   lastName:'moustafa'
-// }
-// console.log(person.fullName.call(person1))
-// console.log(person.fullName.call(person2))
+}

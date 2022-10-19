@@ -1491,28 +1491,8 @@ join()=>convert array into string
 // }
 
 
-// const Person={
-//   firstName:"omnia",
-//   lastName:'Rafat',
-//   fullName:function(){
-//     return this.firstName+ " "+this.lastName;
-//   }
-// }
-// console.log(Person.fullName())
-
-
-// const person={
-//   fullName:function(){
-//     return this.firstName+ " "+this.lastName;
-//     }
-// }
-// const person1={
-//   firstName:"omnia",
-//    lastName:'Rafat',
-// }
-// const person2={
-// firstName:"salma",
-//   lastName:'moustafa'
-// }
-// console.log(person.fullName.call(person1))
-// console.log(person.fullName.call(person2))
+const Person={
+  firstName:"omnia",
+  lastName:'Rafat',
+  fullNa
+}
