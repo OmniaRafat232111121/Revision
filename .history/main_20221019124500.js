@@ -1543,25 +1543,3 @@ join()=>convert array into string
 // let bound=greeting.bind(obj);
 // console.log(bound("Hello"," ","Good"))
 /*scope*/
-// var a=5;
-// var b=3;
-// function showMessage(){
-// var a=1;
-// let b=9;
-// console.log(`Function - From Local ${a}`);
-// console.log(`Function - From Local ${b}`);
-
-// }
-
-// console.log(`From Global ${a}`);
-// console.log(`From Global ${b}`);
-// showMessage();
-
-var x = 10;
-
-if (10 === 10) {
-  let x = 50;
-  console.log(`From If Block ${x}`);
-}
-
-console.log(`From Global ${x}`);

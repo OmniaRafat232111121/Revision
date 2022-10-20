@@ -1534,34 +1534,11 @@ join()=>convert array into string
 // console.log(greeting.apply(obj,["Hello"," I hope you to feel good"]));
 
 //bind=>return a new fuction 
-// const obj={
-//   name:'omnia'
-// }
-// let greeting=function(a,b){
-//   return`${a} ${this.name}  ${b} `
-// }
-// let bound=greeting.bind(obj);
-// console.log(bound("Hello"," ","Good"))
-/*scope*/
-// var a=5;
-// var b=3;
-// function showMessage(){
-// var a=1;
-// let b=9;
-// console.log(`Function - From Local ${a}`);
-// console.log(`Function - From Local ${b}`);
-
-// }
-
-// console.log(`From Global ${a}`);
-// console.log(`From Global ${b}`);
-// showMessage();
-
-var x = 10;
-
-if (10 === 10) {
-  let x = 50;
-  console.log(`From If Block ${x}`);
+const obj={
+  name:'omnia'
 }
-
-console.log(`From Global ${x}`);
+let greeting=function(a,b){
+  return`${a} ${this.name}  ${b} `
+}
+let bound=greeting.bind(obj);
+console.log(bound("Hello"," ","Good"))
